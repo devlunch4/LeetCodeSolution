@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 
 /***
- * https://leetcode.com/problems/two-sum/
+ * <a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a>
  */
 public class SolutionHashMap {
     public static void main(String[] args) {

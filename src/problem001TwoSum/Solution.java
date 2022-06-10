@@ -3,7 +3,7 @@ package problem001TwoSum;
 import java.util.Arrays;
 
 /***
- * https://leetcode.com/problems/two-sum/
+ * <a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a>
  */
 public class Solution {
     public static void main(String[] args) {
@@ -11,14 +11,13 @@ public class Solution {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
 
-        // Example 2:
+//         Example 2:
 //        int[] nums = {3, 2, 4};
 //        int target = 6;
 
-        // Example 3:
+//         Example 3:
 //        int[] nums = {3, 3};
 //        int target = 6;
-
 
         long start = System.nanoTime();
         int[] resNum = twoSum(nums, target);

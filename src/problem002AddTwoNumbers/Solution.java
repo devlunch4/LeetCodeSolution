@@ -12,7 +12,7 @@ package problem002AddTwoNumbers;
 
 
 /**
- * https://leetcode.com/problems/add-two-numbers/
+ * <a href="https://leetcode.com/problems/add-two-numbers/">2. Add Two Numbers</a>
  */
 class Solution {
     /**
@@ -29,7 +29,7 @@ class Solution {
         ListNode inputFour = new ListNode(5, inputFive); // L2 [5,6,4]
 
         // Run Solution Code
-        ListNode nodeResult = Solution.addTwoNumbers(inputOne, inputFour);
+        ListNode nodeResult = addTwoNumbers(inputOne, inputFour);
 
         System.out.println("RESULT:" + nodeResult.val);
     }
