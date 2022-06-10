@@ -21,6 +21,7 @@ public class Solution {
 
         long start = System.nanoTime();
         int[] resNum = twoSum(nums, target);
+        System.out.println("resNum: "+Arrays.toString(resNum));
         Arrays.stream(resNum).forEach(System.out::println);
         long end = System.nanoTime();
         System.out.println("Running time: " + (end - start) + " ns");
