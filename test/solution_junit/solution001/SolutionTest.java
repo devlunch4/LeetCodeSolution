@@ -1,15 +1,14 @@
-package solutionJunit;
+package solution_junit.solution001;
 
+import org.junit.jupiter.api.Assertions; //JUnit5
 import org.junit.jupiter.api.Test;
-import problem001TwoSum.Solution;
-import problem001TwoSum.SolutionHashMap;
+import problem001_two_sum.Solution;
+import problem001_two_sum.SolutionHashMap;
 
 import java.util.Arrays;
+// import static org.junit.Assert.assertEquals; //JUnit4
 
-import static org.junit.Assert.*;
-
-
-class SolutionTest001 {
+class SolutionTest {
     @Test
     public void test01() {
         // Example 1:
@@ -20,7 +19,7 @@ class SolutionTest001 {
         String methodName = new Object() {
         }.getClass().getEnclosingMethod().getName();
         System.out.println(methodName + " answer Value:" + answer);
-        assertEquals(Arrays.toString(ourput), answer);
+        Assertions.assertEquals(Arrays.toString(ourput), answer);
     }
 
     @Test
@@ -33,7 +32,7 @@ class SolutionTest001 {
         String methodName = new Object() {
         }.getClass().getEnclosingMethod().getName();
         System.out.println(methodName + " answer Value:" + answer);
-        assertEquals(Arrays.toString(ourput), answer);
+        Assertions.assertEquals(Arrays.toString(ourput), answer);
     }
 
     @Test
@@ -46,7 +45,7 @@ class SolutionTest001 {
         String methodName = new Object() {
         }.getClass().getEnclosingMethod().getName();
         System.out.println(methodName + " answer Value:" + answer);
-        assertEquals(Arrays.toString(ourput), answer);
+        Assertions.assertEquals(Arrays.toString(ourput), answer);
     }
 
     @Test
@@ -59,7 +58,7 @@ class SolutionTest001 {
         String methodName = new Object() {
         }.getClass().getEnclosingMethod().getName();
         System.out.println(methodName + " answer Value:" + answer);
-        assertEquals(Arrays.toString(ourput), answer);
+        Assertions.assertEquals(Arrays.toString(ourput), answer);
     }
 
     @Test
@@ -72,7 +71,7 @@ class SolutionTest001 {
         String methodName = new Object() {
         }.getClass().getEnclosingMethod().getName();
         System.out.println(methodName + " answer Value:" + answer);
-        assertEquals(Arrays.toString(ourput), answer);
+        Assertions.assertEquals(Arrays.toString(ourput), answer);
     }
 
     @Test
@@ -85,6 +84,6 @@ class SolutionTest001 {
         String methodName = new Object() {
         }.getClass().getEnclosingMethod().getName();
         System.out.println(methodName + " answer Value:" + answer);
-        assertEquals(Arrays.toString(ourput), answer);
+        Assertions.assertEquals(Arrays.toString(ourput), answer);
     }
 }

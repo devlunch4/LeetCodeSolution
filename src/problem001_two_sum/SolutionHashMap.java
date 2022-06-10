@@ -1,4 +1,4 @@
-package problem001TwoSum;
+package problem001_two_sum;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -12,13 +12,13 @@ public class SolutionHashMap {
         int[] nums = {1, 7, 11, 15, 8};
         int target = 9;
 
-        // Example 2:
-//        int[] nums = {3, 2, 4};
-//        int target = 6;
+/*        Example 2:
+        int[] nums = {3, 2, 4};
+        int target = 6;
 
-        // Example 3:
-//        int[] nums = {3, 3};
-//        int target = 6;
+        Example 3:
+        int[] nums = {3, 3};
+        int target = 6;*/
 
         long start = System.nanoTime();
         int[] resNum = twoSum(nums, target);
@@ -27,6 +27,13 @@ public class SolutionHashMap {
         System.out.println("Running time: " + (end - start) + " ns");
     }
 
+    /**
+     * Solution001 HashMap method
+     *
+     * @param nums   input int[]
+     * @param target target int
+     * @return int[]
+     */
     public static int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> map = new HashMap<>();
         int numsLength = nums.length;

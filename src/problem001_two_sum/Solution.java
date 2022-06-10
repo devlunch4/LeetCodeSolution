@@ -1,4 +1,4 @@
-package problem001TwoSum;
+package problem001_two_sum;
 
 import java.util.Arrays;
 
@@ -11,22 +11,30 @@ public class Solution {
         int[] nums = {2, 7, 11, 15};
         int target = 9;
 
-//         Example 2:
-//        int[] nums = {3, 2, 4};
-//        int target = 6;
+/*         Example 2:
+         int[] nums = {3, 2, 4};
+         int target = 6;
 
-//         Example 3:
-//        int[] nums = {3, 3};
-//        int target = 6;
+         Example 3:
+         int[] nums = {3, 3};
+         int target = 6;*/
 
         long start = System.nanoTime();
         int[] resNum = twoSum(nums, target);
-        System.out.println("resNum: "+Arrays.toString(resNum));
+        System.out.println("resNum: " + Arrays.toString(resNum));
         Arrays.stream(resNum).forEach(System.out::println);
         long end = System.nanoTime();
         System.out.println("Running time: " + (end - start) + " ns");
     }
 
+
+    /**
+     * Solution001
+     *
+     * @param nums   input int[]
+     * @param target target int
+     * @return int[]
+     */
     public static int[] twoSum(int[] nums, int target) {
         int numsLength = nums.length;
         for (int i = 0; i < numsLength - 1; ++i) {
