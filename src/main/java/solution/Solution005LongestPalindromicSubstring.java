@@ -1,6 +1,9 @@
-package problem005_longest_palindromic_substring;
+package solution;
 
-class Solution {
+/**
+ * <a href="https://leetcode.com/problems/longest-palindromic-substring/">5. Longest Palindromic Substring</a>
+ */
+public class Solution005LongestPalindromicSubstring {
     public static String longestPalindrome(String s) {
         if (s == null || s.length() < 1) return "";
         int start = 0, end = 0;
@@ -17,12 +20,14 @@ class Solution {
         }
         return s.substring(start, end + 1);
     }
-    /***
-     *  Left, Right Character Value Compare And Check index.
-     * @param s
-     * @param left
-     * @param right
-     * @return
+
+    /**
+     * Left, Right Character Value Compare And Check index.
+     *
+     * @param s input String
+     * @param left input left int
+     * @param right input right int
+     * @return result(right-left-1)
      */
     private static int expandAroundCenter(String s, int left, int right) {
         int L = left, R = right;

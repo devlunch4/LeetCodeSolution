@@ -1,9 +1,9 @@
-package problem002_add_two_numbers;
+package solution;
 
 /**
  * <a href="https://leetcode.com/problems/add-two-numbers/">2. Add Two Numbers Solution And TestCode(main)</a>
  */
-class Solution {
+public class Solution002AddTwoNumbers {
     /**
      * For Run code
      */
@@ -112,9 +112,6 @@ class Solution {
 class ListNode {
     int val;
     ListNode next;
-
-    ListNode() {
-    }
 
     ListNode(int val) {
         this.val = val;

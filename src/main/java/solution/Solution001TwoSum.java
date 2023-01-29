@@ -1,11 +1,11 @@
-package problem001_two_sum;
+package solution;
 
 import java.util.Arrays;
 
 /***
  * <a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a>
  */
-public class Solution {
+public class Solution001TwoSum {
     public static void main(String[] args) {
         // Example 1:
         int[] nums = {2, 7, 11, 15};

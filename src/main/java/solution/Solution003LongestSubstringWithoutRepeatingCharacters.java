@@ -1,12 +1,11 @@
-package problem003_longest_substring_without_repeating_characters;
+package solution;
 
 import java.util.*;
 
 /**
- * 3. Longest Substring Without Repeating Characters
  * <a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/">3. Longest Substring Without Repeating Characters</a>
  */
-class Solution {
+public class Solution003LongestSubstringWithoutRepeatingCharacters {
 
     /**
      * Run Solution Code

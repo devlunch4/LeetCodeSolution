@@ -1,4 +1,4 @@
-package problem001_two_sum;
+package solution;
 
 import java.util.Arrays;
 import java.util.HashMap;
@@ -6,7 +6,7 @@ import java.util.HashMap;
 /***
  * <a href="https://leetcode.com/problems/two-sum/">1. Two Sum</a>
  */
-public class SolutionHashMap {
+public class Solution001TwoSumHashMap {
     public static void main(String[] args) {
         // Example 1:
         int[] nums = {1, 7, 11, 15, 8};

@@ -1,19 +1,18 @@
-package problem004_median_of_two_sorted_arrays;
+package solution;
 
 import java.util.Arrays;
 
 /**
- * 4. Median of Two Sorted Arrays
  * <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">4. Median of Two Sorted Arrays</a>
  */
-class Solution {
+public class Solution004MedianOfTwoSortedArrays {
     //public double findMedianSortedArrays(int[] nums1, int[] nums2) {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
         int[] newNums = new int[m + n];
 
-        int i = 0; // nums1 index
+        int i; // nums1 index
         int j = 0; // nums2 index
         int k = 0; // newNums index
 
